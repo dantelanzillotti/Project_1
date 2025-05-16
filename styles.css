@@ -1,0 +1,201 @@
+body {
+    text-align: center;
+   
+    display: flex;
+    flex-direction: column;
+}
+.background1 {
+    background-color: aquamarine;
+}
+.main{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.header {
+    padding-bottom: 3rem;
+   
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+ul{
+    display: flex;
+    width: 600px;
+  
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.left {
+    padding-top: 3rem;
+   
+    width: 10%;
+   
+}
+
+.content {
+    padding-top: 3rem;
+    flex-wrap: wrap;
+    width: 30%;
+  
+    text-align: left;
+    font-size: 24px;
+    
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.hero {
+    padding-top: 6rem;
+   
+    width: 50%;
+
+ 
+}
+
+.right {
+    padding-top: 3rem;
+     width: 10%;
+    
+}
+
+.footer{
+    padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+.hero img{
+    height: 200px;
+    width: 800px;
+}
+
+/*SECOND PIECE*/
+
+.main2 {
+   
+    display: flex;
+    justify-content: space-evenly;}
+
+.header2 {
+    padding: 2rem;
+   
+}
+
+.costume {
+    height: 100px;
+    width: 100px;
+    border: solid blue;
+}
+.bicep{
+    height:100px;
+    width: 100px;
+    border: solid blue;
+    background-color: white;
+}
+.brain {
+    height: 100px;
+    width: 100px;
+    border: solid blue;
+}
+.heart {
+    height: 100px;
+    width: 100px;
+    border: solid blue;
+    background-color: white;
+}
+
+.background {
+    background-color: antiquewhite;
+}
+
+.footer2 {
+    padding: 3rem;
+}
+
+/* THIRD PIECE */
+
+.main3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header3 {
+    padding: 3rem;
+}
+
+.content3 {
+    font-size: 36px;
+    flex-wrap: wrap;
+   
+    width: 25%;
+    text-align: left;
+}
+
+.ben {
+
+font-weight: bold;
+font-size: 24px;
+padding-left: 19rem;
+}
+
+.footer3 {
+    padding: 3rem;
+}
+
+/* FOURTH SECTION */
+
+.background4 {
+    background-color: antiquewhite;
+}
+
+.main4{
+    display: flex;
+   
+}
+
+.content4 {
+    flex-grow: 1;
+    display: flex;
+  
+    justify-content: space-around;
+    width:35%;
+    background-color: blue;
+}
+
+.header4 {
+    padding: 3rem;
+}
+
+.footer4{
+    padding: 3rem;
+}
+.right4 {
+    flex-grow: 1;
+}
+
+.left4 {
+   flex-grow: 1;
+}
+
+.text4 {
+   color: white;
+    text-align: left;
+
+}
+.content4 button {
+    align-self: center;
+    border: solid white;
+}
+
+.text4 p {
+    padding: 2rem;
+}
